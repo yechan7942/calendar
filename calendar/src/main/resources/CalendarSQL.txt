@@ -1,0 +1,8 @@
+create table calendar(
+member_Id    	VARCHAR2(100)  	not null,
+title       		VARCHAR2(100)   	not null,
+schedule_no 	NUMBER         	PRIMARY key,
+contents    	VARCHAR2(100)   	not null,
+startDT      	VARCHAR2(50)   	NOT NULL,
+endDT       	 VARCHAR2(50)   	NOT NULL
+);
